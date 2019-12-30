@@ -2833,12 +2833,18 @@ input, select, textarea {
 				.wrapper > .inner {
 					width: 90%;
 				}
+				.wrapper > .inner1 {
+					width: 90%;
+				}
 
 			}
 
 			@media screen and (max-width: 980px) {
 
 				.wrapper > .inner {
+					width: 100%;
+				}
+				.wrapper > .inner1 {
 					width: 100%;
 				}
 
@@ -4170,7 +4176,7 @@ input, select, textarea {
 	float: left;
   width: 22%;
   padding-left: 30px;
-	/*padding-top: 6em;*/
+	padding-top: 0.7em;
 	text-align: left;
 	text-justify: auto;
 	/*border-left: 2px solid #dfdfdf;*/
@@ -4202,6 +4208,14 @@ input, select, textarea {
 	  }
 
 	.mycolumnv2 {
+		width: 100%;
+		text-align: center;
+	}
+	.columnleft {
+		width: 100%;
+		text-align: center;
+	}
+	.columnright {
 		width: 100%;
 		text-align: center;
 	}
