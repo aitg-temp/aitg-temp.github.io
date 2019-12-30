@@ -4219,6 +4219,10 @@ input, select, textarea {
 		width: 100%;
 		text-align: center;
 	}
+	.imgcust {
+		height: 290px;
+		width: 80%;
+	}
   }
 /* Collapsible section for Publication and Research */
 .collapsible {
