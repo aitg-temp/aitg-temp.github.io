@@ -4123,11 +4123,6 @@ input, select, textarea {
 	color: #21b2a6;
 	cursor: pointer;
 }
-.mycolumn {
-	float: left;
-	width: 25%;
-	padding: 20px;
-}
 .imgcust {
 	width: 100%;
 	border-radius: 3px;
@@ -4143,6 +4138,16 @@ input, select, textarea {
 	content: "";
 	clear: both;
 	display: table;
+}
+.colalum {
+	float: left;
+	width: 16.66%;
+	padding: 10px;
+}
+.mycolumn {
+	float: left;
+	width: 25%;
+	padding: 20px;
 }
 .mycolumnnew {
 	float: left;
@@ -4186,6 +4191,13 @@ input, select, textarea {
 	margin: 0.5em 0;
 }
 @media screen and (max-width: 550px) {
+	.colalum {
+		width: 100%;
+	}
+	.colalum > img {
+		width: 100%;
+	  padding: 0 15%;
+	}
 	.mycolumn {
 	  width: 100%;
 
@@ -4221,7 +4233,9 @@ input, select, textarea {
 	}
 	.imgcust {
 		height: 290px;
-		width: 80%;
+		width: 75%;
+		display:block;
+    margin:auto;
 	}
   }
 /* Collapsible section for Publication and Research */
