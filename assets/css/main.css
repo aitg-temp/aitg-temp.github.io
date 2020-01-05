@@ -4118,15 +4118,18 @@ input, select, textarea {
 	text-transform: capitalize;
 	font-size: 0.9em;
 	letter-spacing: normal;
+	padding-top: 15px;
 }
 .custheader:hover {
 	color: #21b2a6;
 	cursor: pointer;
 }
 .imgcust {
-	width: 100%;
+	width: 75%;
 	border-radius: 3px;
-	height: 220px;
+	height: 230px;
+	display:block;
+  margin:auto;
 }
 .imgcust.hover-shadow {
 	transition: 0.3s;
@@ -4149,9 +4152,14 @@ input, select, textarea {
 	width: 25%;
 	padding: 20px;
 }
+.colppl {
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+}
 .mycolumnnew {
 	float: left;
-	width: 75%;
+	width: 66.66%;
 	padding: 20px;
 }
 .mycolumnv1 {
@@ -4205,6 +4213,10 @@ input, select, textarea {
 	.mycolumn > img {
 	  width: 100%;
 	  padding: 0 15%;
+	}
+	.colppl {
+		width: 100%;
+		text-align: center;
 	}
 	.mycolumnnew {
 		width: 100%;
@@ -4457,3 +4469,12 @@ input, select, textarea {
 #myBtn3 > img:hover,#myBtn4 > img:hover,#myBtn5 > img:hover,#myBtn6 > img:hover {
 	opacity: 0.9;
 }
+.image.avatar {
+	border-radius: 100%;
+	overflow: hidden;
+}
+	.image.avatar img {
+		border-radius: 100%;
+		display: block;
+		width: 100%;
+	}
