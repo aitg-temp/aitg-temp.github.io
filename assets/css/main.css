@@ -4134,6 +4134,17 @@ input, select, textarea {
 .imgcust.hover-shadow {
 	transition: 0.3s;
 }
+.imgcust_v2 {
+	width: 100%;
+	border-radius: 3px;
+	height: 220px;
+	display:block;
+  margin:auto;
+	padding-right: 10px;
+}
+.imgcust_v2.hover-shadow {
+	transition: 0.3s;
+}
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -4144,8 +4155,8 @@ input, select, textarea {
 }
 .colalum {
 	float: left;
-	width: 16.66%;
-	padding: 10px;
+	width: 20%;
+	padding-top: 20px;
 }
 .mycolumn {
 	float: left;
@@ -4244,6 +4255,12 @@ input, select, textarea {
 		text-align: center;
 	}
 	.imgcust {
+		height: 290px;
+		width: 75%;
+		display:block;
+    margin:auto;
+	}
+	.imgcust_v2 {
 		height: 290px;
 		width: 75%;
 		display:block;
