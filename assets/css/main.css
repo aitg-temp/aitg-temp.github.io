@@ -3855,13 +3855,13 @@ input, select, textarea {
 		}
 
 /* Main */
-/* Secondary page*/
+/* Picture for the people's picture*/
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gpic1.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gpic1.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gpic1.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gpic1.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/People/gpic1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/People/gpic1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/People/gpic1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/People/gpic1.jpg");
 		background-attachment: fixed;
 		background-position: 50% 30%;
 		background-repeat: no-repeat;
@@ -4135,12 +4135,11 @@ input, select, textarea {
 	transition: 0.3s;
 }
 .imgcust_v2 {
-	width: 100%;
+	width: 95%;
 	border-radius: 3px;
 	height: 220px;
 	display:block;
   margin:auto;
-	padding-right: 10px;
 }
 .imgcust_v2.hover-shadow {
 	transition: 0.3s;
